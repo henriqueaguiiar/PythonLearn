@@ -1,0 +1,16 @@
+a = float(input("Enther the value of a: "))
+b = float(input("Enther the value of b: "))
+c = float(input("Enther the value of c: "))
+
+areaTriangle = float (a*c/2)
+pi = float (3.14159)
+areaCircle = float (pi*c*c)
+areaTrapezio = float (a+b*c/2)
+areaQuadrado = float (b*b)
+areaRectangle = float (a*b)
+
+print(f"TRIANGULO: {areaTriangle:.3f}")
+print(f"CIRCULO: {areaCircle:.3f}")
+print(f"TRAPEZIO: {areaTrapezio:.3f}")
+print(f"QUADRADO: {areaQuadrado:.3f}")
+print(f"RETANGULO: {areaRectangle:.3f}")
