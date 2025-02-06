@@ -4,4 +4,4 @@ pi = float(3.14159)
 
 area = pi * raio *raio
 
-print("A área do círculo é: {:.4f}".format(area))
+print(f"A área do círculo é: {area:.2f}")
